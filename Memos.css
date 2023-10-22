@@ -1,0 +1,32 @@
+/* CSS for the container that holds the memo items in one row */
+.memo-container {
+  display: flex;
+  font-size: large;
+  justify-content: center;
+  background-color: #f2b8ad;
+  color: rgb(15, 13, 13);
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px 0;
+  height: 50px;
+}
+
+/* CSS for each memo item (columns) */
+.memo-name,
+.memo-message,
+.memo-date,
+.memo-from {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Add more styling for text and alignment as needed */
+
+
+
+
+
+
+
+  
