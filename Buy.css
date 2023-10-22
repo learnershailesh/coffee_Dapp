@@ -1,0 +1,56 @@
+/* CSS for the form */
+.form-container {
+  position:absolute;
+  top: 50%;
+  left:10%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgba(255,255,255,0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-width: 500px; /* Adjust the width as needed */
+  width: 400px;
+  margin: 0 auto;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* Position Buy component on the left side of wood image */
+.wood-image-container {
+  position: relative;
+}
+
+/* Adjust this width as per your design */
+.wood-image {
+  width: 100%;
+}
+
+/* Add a container around the wood image */
+
+  
