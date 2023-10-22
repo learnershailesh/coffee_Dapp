@@ -1,0 +1,36 @@
+/* CSS for the images */
+.bg{
+  background-color: rgba(254, 252, 249, 0.859);
+}
+.wood-image {
+  position: relative;
+}
+
+.img-fr {
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+
+/* CSS for the "Connected Account" text */
+.connected-account {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7); /* Optional: Add a semi-transparent white background */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.highlight{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #724331; /* Background color for highlighting */
+  color: white; /* Text color */
+  padding: 10px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+
